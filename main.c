@@ -12,11 +12,31 @@ int main()
   for(int i=0; i<tam; i++){
     switch (frase[i])
     {
-    case 'v':
-      frase[i] = 'u';
-
+    case 'z':
+      frase[i] = 'A';
       break;
-    
+    case 'y':
+      frase[i] = 'E';
+      break;
+    case 'w':
+      frase[i] = 'O';
+      break;
+    case 'k':
+      frase[i] = 'T';
+      break;
+    case 'K':
+      frase[i] = 'T';
+      break;
+    case 'b':
+      frase[i] = 'M';
+      break;
+    case 'd':
+      frase[i] = 'N';
+      break;
+    case 'f':
+      frase[i] = 'P';
+      break;
+
     default:
       break;
     }
